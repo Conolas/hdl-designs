@@ -14,46 +14,6 @@ It focuses on building a strong foundation in hardware description languages thr
 - Building step-by-step design knowledge from basic to sequential systems
 
 ---
-## 🧱 Repository Structure
-
-
-hdl-designs/
-
-├── verilog/
-
-│   ├── basic/
-
-│   ├── combinational/
-
-│   ├── sequential/
-
-│   └── mini-projects/
-
-│
-├── vhdl/
-
-│   ├── basic/
-
-│   ├── combinational/
-
-│   └── sequential/
-
-│
-├── systemverilog/
-
-│   ├── basic/
-
-│   ├── combinational/
-  
-│   ├── sequential/
-
-│   └── testbenches/
-
-│
-└── README.md
-
-
----
 
 ## 📁 Contents
 
