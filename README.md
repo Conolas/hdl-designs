@@ -18,22 +18,37 @@ It focuses on building a strong foundation in hardware description languages thr
 
 
 hdl-designs/
+
 ├── verilog/
-│ ├── basic/
-│ ├── combinational/
-│ ├── sequential/
-│ └── mini-projects/
+
+│   ├── basic/
+
+│   ├── combinational/
+
+│   ├── sequential/
+
+│   └── mini-projects/
+
 │
 ├── vhdl/
-│ ├── basic/
-│ ├── combinational/
-│ └── sequential/
+
+│   ├── basic/
+
+│   ├── combinational/
+
+│   └── sequential/
+
 │
 ├── systemverilog/
-│ ├── basic/
-│ ├── combinational/
-│ ├── sequential/
-│ └── testbenches/
+
+│   ├── basic/
+
+│   ├── combinational/
+  
+│   ├── sequential/
+
+│   └── testbenches/
+
 │
 └── README.md
 
