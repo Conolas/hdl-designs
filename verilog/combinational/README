@@ -1,0 +1,68 @@
+# Combinational Logic (Verilog)
+
+## Overview
+This directory contains Verilog implementations of basic combinational logic circuits.
+
+Combinational circuits produce outputs that depend only on the current inputs, without any memory or clock dependency.
+
+---
+
+## 🧠 Concepts Covered
+
+- Arithmetic circuits
+- Data selection and routing
+- Encoding and decoding
+- Comparison operations
+
+---
+
+## 📁 Modules Included
+
+- **Adder**  
+  Performs binary addition of two inputs.
+
+- **Subtractor**  
+  Performs subtraction between two inputs.
+
+- **Multiplexer (MUX)**  
+  Selects one input from multiple inputs based on control signals.
+
+- **Demultiplexer (DEMUX)**  
+  Routes a single input to one of many outputs.
+
+- **Encoder**  
+  Converts multiple input lines into a binary-coded output.
+
+- **Decoder**  
+  Converts binary input into one-hot output signals.
+
+- **Comparator**  
+  Compares two inputs and determines their relation (equal, greater, or less).
+
+---
+
+## ⚙️ Tools Used
+
+- Verilog HDL  
+- Xilinx Vivado  
+
+---
+
+## 🎯 Learning Focus
+
+- Writing combinational logic using `assign` and `always` blocks  
+- Understanding propagation of signals without clock dependency  
+- Designing modular and reusable components  
+
+---
+
+## 🧪 Notes
+
+- All designs are written to be synthesizable  
+- Testbenches may be added separately using SystemVerilog  
+
+---
+
+## 📌 Summary
+
+This section builds the foundation for more complex digital systems by focusing on stateless logic design.
