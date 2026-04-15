@@ -1,43 +1,54 @@
-# Combinational Logic (Verilog)
+# Verilog Combinational Logic Designs
 
 ## Overview
-This directory contains Verilog implementations of basic combinational logic circuits.
+This directory contains Verilog implementations of fundamental combinational logic circuits.
 
-Combinational circuits produce outputs that depend only on the current inputs, without any memory or clock dependency.
+Combinational circuits generate outputs based solely on current inputs, without any dependency on clock or previous states.
 
 ---
 
-## 🧠 Concepts Covered
+## 🧠 Design Scope
 
-- Arithmetic circuits
+The designs in this section focus on:
+
+- Arithmetic operations
 - Data selection and routing
-- Encoding and decoding
-- Comparison operations
+- Logical transformations
+- Basic building blocks for larger digital systems
 
 ---
 
 ## 📁 Modules Included
 
-- **Adder**  
-  Performs binary addition of two inputs.
+### 🔹 Arithmetic Circuits
+- **Half Adder**
+- **Full Adder**
+- **Half Subtractor**
+- **Full Subtractor**
+- **Ripple Carry Adder**
 
-- **Subtractor**  
-  Performs subtraction between two inputs.
+---
 
-- **Multiplexer (MUX)**  
-  Selects one input from multiple inputs based on control signals.
+### 🔹 Data Routing
+- **Multiplexer (MUX)**
+- **Demultiplexer (DEMUX)**
 
-- **Demultiplexer (DEMUX)**  
-  Routes a single input to one of many outputs.
+---
 
-- **Encoder**  
-  Converts multiple input lines into a binary-coded output.
+### 🔹 Encoding / Decoding
+- **Encoder**
+- **Decoder**
 
-- **Decoder**  
-  Converts binary input into one-hot output signals.
+---
 
-- **Comparator**  
-  Compares two inputs and determines their relation (equal, greater, or less).
+### 🔹 Comparison
+- **Comparator**
+
+---
+
+### 🔹 Arithmetic Extensions
+- **Vector Multiplier**
+- **Arithmetic Logic Unit (ALU)**
 
 ---
 
@@ -50,19 +61,21 @@ Combinational circuits produce outputs that depend only on the current inputs, w
 
 ## 🎯 Learning Focus
 
-- Writing combinational logic using `assign` and `always` blocks  
-- Understanding propagation of signals without clock dependency  
-- Designing modular and reusable components  
+- Writing combinational logic using `assign` and `always @(*)`
+- Understanding propagation delay and signal flow
+- Designing modular and reusable components
+- Structuring arithmetic and logical operations
 
 ---
 
-## 🧪 Notes
+## 🧪 Implementation Notes
 
-- All designs are written to be synthesizable  
-- Testbenches may be added separately using SystemVerilog  
+- All modules are written to be synthesizable  
+- Designs avoid clocked logic and storage elements  
+- Testbenches are handled separately using SystemVerilog  
 
 ---
 
 ## 📌 Summary
 
-This section builds the foundation for more complex digital systems by focusing on stateless logic design.
+This section forms the foundation for sequential and system-level designs by focusing on stateless logic and core digital building blocks.
