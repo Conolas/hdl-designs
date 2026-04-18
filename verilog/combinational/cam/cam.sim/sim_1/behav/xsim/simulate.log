@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Test Case 1 Passed: Found '1010' at address 1
+Test Case 2 Passed: Found '1100' at address 2
+Test Case 3 Passed: Found '1111' at address 3
+Test Case 4 Passed: No match for '0001'
+$finish called at time : 100 ns : File "C:/Users/jatin/cam/cam.srcs/sim_1/new/testcam.v" Line 68
