@@ -1,0 +1,74 @@
+$date
+   Fri Oct 10 02:56:14 2025
+$end
+
+$version
+  2025.1.0
+  $dumpfile ("dump.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module testbench_ALU $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var reg 3 # OP [2:0] $end
+$var wire 4 $ Result [3:0] $end
+$scope module ALU_inst $end
+$var wire 4 % A [3:0] $end
+$var wire 4 & B [3:0] $end
+$var wire 3 ' OP [2:0] $end
+$var wire 4 $ Result [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b10 !
+b101 "
+b0 #
+b111 $
+b10 %
+b101 &
+b0 '
+$end
+
+#10000
+b101 !
+b10 "
+b1 #
+b11 $
+b101 %
+b10 &
+b1 '
+
+#20000
+b1100 !
+b1010 "
+b10 #
+b1000 $
+b1100 %
+b1010 &
+b10 '
+
+#30000
+b11 #
+b1110 $
+b11 '
+
+#40000
+b100 #
+b110 $
+b100 '
+
+#50000
+b1111 !
+b1111 "
+b111 #
+b0 $
+b1111 %
+b1111 &
+b111 '
